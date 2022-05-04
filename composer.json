@@ -11,6 +11,7 @@
         }
     ],
     "require": {
+        "usualtool/ut-ftp": "dev-master",
     },
     "autoload": {
         "psr-4": {
