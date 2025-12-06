@@ -2,12 +2,12 @@
     "name": "usualtool/ut-move",
     "description": "UT framework moving tool.",
     "keywords": ["ut-move", "usualtool", "UT Framework"],
-    "homepage": "http://frame.usualtool.com",
+    "homepage": "https://github.com/usualtool",
     "license": "Apache-2.0",
     "authors": [
         {
-        "name":  "HuangDou",
-        "email": "292951110@qq.com"
+        "name":  "Huang Hui",
+        "email": "usualtool@qq.com"
         }
     ],
     "require": {
