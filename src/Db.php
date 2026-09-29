@@ -1,6 +1,6 @@
 <?php
 namespace usualtool\Move;
-use library\UsualToolMysql;
+use usualtool\Lib\Mysql;
 /**
  * 同步Mysql数据
  */
@@ -9,7 +9,7 @@ class Db{
         include 'Config.php';
         $this->backup=UTF_ROOT."/mysql.sql";
         $this->dbname=$sync['db_name'];
-        $this->the_db=UsualToolMysql\UTMysql::GetMysql();
+        $this->the_db=Mysql::GetMysql();
         $this->ftp_db=new \mysqli($sync["db_serv"].":".$sync["db_port"],$sync["db_user"],$sync["db_pass"],$this->dbname);
         $this->ftp_db->set_charset("utf8");
     }
